@@ -2,7 +2,7 @@
 id: docker
 title: Docker
 sidebar_label: Docker
-slug: /gateway/other-install/docker
+slug: /getting-started/other-install-methods/docker
 ---
 
 This guide uses Docker to deploy Tyk & Redis.

@@ -1,8 +1,8 @@
 ---
-id: your-first-token
+id: creating-your-first-auth-token
 title: Your First Auth Token
 sidebar_label: 3. Creating Your First Auth Token
-slug: /gateway/your-first-token
+slug: /getting-started/creating-your-first-auth-token
 ---
 
 This guide assumes you've been following the quick get-started installation guide.

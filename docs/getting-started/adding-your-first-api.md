@@ -1,8 +1,8 @@
 ---
-id: your-first-api
+id: adding-your-first-api
 title: Adding Your First API
 sidebar_label: 2. Adding Your First API
-slug: /gateway/your-first-api
+slug: /getting-started/adding-your-first-api
 ---
 
 This guide assumes you've been following the quick get-started installation guide.

@@ -1,8 +1,8 @@
 ---
-id: your-first-plugin
+id: adding-your-first-plugin
 title: Adding Your First Plugin
 sidebar_label: 4. Adding Your First Plugin
-slug: /gateway/your-first-plugin
+slug: /getting-started/adding-your-first-plugin
 ---
 
 This guide assumes you've been following the quick get-started installation guide.

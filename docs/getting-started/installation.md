@@ -2,7 +2,7 @@
 id: installation
 title: Installation
 sidebar_label: 1. Installation
-slug: /gateway/installation
+slug: /getting-started/installation
 ---
 
 This guide uses Docker Compose to deploy Tyk.  Click on "Other Install Methods" in the sidebar to view the rest of the provided installation methods
