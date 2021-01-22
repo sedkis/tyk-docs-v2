@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Tyk',
-  tagline: 'The tagline of my site',
+  title: 'Tyk Community Edition',
+  tagline: 'The essential component in cloud native API Management: our open source API Gateway, free to all forever',
   url: 'http://sedky.ca/tyk-gw-docker-dev-env/',
   baseUrl: '/tyk-gw-docker-dev-env/',
   onBrokenLinks: 'throw',
@@ -24,7 +24,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/TykTechnologies/tyk',
           label: 'GitHub',
           position: 'right',
         },
@@ -34,50 +34,97 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Features',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Out of the Box',
+              href: 'https://tyk.io/features/features/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Plugins',
+              href: 'https://tyk.io/features/extend-tyk/',
+            },
+            {
+              label: 'Benchmarks',
+              to: 'https://tyk.io/why-tyk/benchmark/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Products',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Tyk Cloud',
+              href: 'https://tyk.io/api-gateway/cloud/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'On-Premises',
+              href: 'https://tyk.io/api-gateway/on-premise/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Enterprise',
+              href: 'https://tyk.io/api-gateway/enterprise/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Help',
           items: [
+            {
+              label: 'Ask a Question',
+              href: 'https://community.tyk.io/',
+            },
+            {
+              label: '24/7 Support',
+              href: 'https://support.tyk.io/',
+            },
+            {
+              label: 'Raise a Bug',
+              href: 'https://github.com/TykTechnologies/tyk/issues',
+            },
+          ],
+        },
+        {
+          title: 'About',
+          items: [
+            {
+              label: 'Team',
+              href: 'https://tyk.io/about/team/',
+            },
+            {
+              label: 'Contact',
+              href: 'https://tyk.io/about/contact/',
+            },
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'https://tyk.io/api-expertise/blog/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Tyk.io',
+              href: 'https://tyk.io/',
+            },
+          ],
+        },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms & Conditions',
+              href: 'https://tyk.io/terms-and-conditions/',
+            },
+            {
+              label: 'Privacy Policy',
+              href: 'https://tyk.io/privacy-policy/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      logo: {
+        alt: 'Tyk - make things, better',
+        src: 'img/logo-white.svg',
+        href: 'https://tyk.io/',
+      },
+       copyright: `Copyright © ${new Date().getFullYear()} Tyk Community Edition, Tyk.io. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -88,7 +135,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/TykTechnologies/tyk',
         },
         blog: {
           showReadingTime: true,
